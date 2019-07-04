@@ -29,7 +29,7 @@ Assumptions
 1. I assumed that all ten columns must be filled with data to be valid
 2. I created the database in memory for the project instead of a file based
 3. I assume no error checking or handling 
-4. Scalibile within rules and assumptions
+4. Scalable within rules and assumptions
 
 
 
