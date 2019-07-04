@@ -133,6 +133,10 @@ class Main {
 								quoteInColumn = !quoteInColumn; //flip the flag boolean
 							}		
 						}//end for
+						
+						if(columnNumber < COLUMN_SIZE) {
+							rejected = true;
+						}
 							
 						if(rejected) {
 							writeLineToFile(outFileName, csvLine);
