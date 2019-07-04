@@ -54,8 +54,9 @@ I decided not to do error checking or handling due to time restrictions but simp
 --------------------------------------------------------------------------------------------------------------------------------
 
 SQL DDL
+
 INSERT INTO interviewData(A,B,C,D,E,F,G,H,I,j) VALUES(?,?,?,?,?,?,?,?,?,?)
-CREATE TABLE interviewData(A string,B string,C string,D string,E string,F string,G string,H string,I string,J string,)
+CREATE TABLE interviewData(A string,B string,C string,D string,E string,F string,G string,H string,I string,J string)
      
 
 
